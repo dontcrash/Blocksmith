@@ -1,0 +1,61 @@
+# Blocksmith source registry
+#
+# Syntax:   url|tier|format
+#   tier    = small | medium | large  (MINIMUM list the source lands in;
+#             lists are cumulative: small ⊂ medium ⊂ large)
+#   format  = auto | adblock | hosts | domains | tld   (optional, default auto)
+#
+# small  = the most popular, reputable, low-breakage feeds
+# medium = small + wider trusted security/telemetry coverage
+# large  = everything healthy, including aggressive and high-volume feeds
+#
+# Verified live with entry counts (see build-summary.txt). Reputation/noise
+# notes are in the inline comments.
+
+# --- reputable, low-noise core (small) ---
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt|large               # HaGeZi TIF FULL, 2,117,716 - reputable security mega-feed, too big for small/medium
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt|medium     # HaGeZi Apple telemetry, 110
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt|medium     # HaGeZi Amazon telemetry, 367
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt|medium    # HaGeZi TikTok telemetry, 437
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt|medium # HaGeZi MS/WinOffice telemetry, 383
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt|medium    # HaGeZi Huawei telemetry, 135
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt|medium         # HaGeZi pop-under ads, 47,792 - reputable, mildly aggressive
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt|medium             # HaGeZi fake/sham shops, 17,587 - reputable
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt|small                       # Peter Lowe's Blocklist, 3,546 - the classic, tiny, near-zero breakage
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt|medium                      # AdAway Default (Android), 6,540 - popular, mirror compiled 2023
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt|small                      # HaGeZi NORMAL, 172,106 - flagship tier, the sweet spot
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt|medium                      # Perflyst+Dandelion Smart-TV, 138 - small, trusted
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt|medium                      # Dan Pollock's List, 12,960 - classic hosts list
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt|large                      # OISD BIG, 233,652 - popular but can break sites
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt|small                       # OISD SMALL, 58,682 - popular, well-balanced
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt|medium                     # Steven Black's hosts, 71,450 - one of the most used ever
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt|small                       # AdGuard DNS filter, 190,698 - most popular DNS filter
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt|medium                     # WindowsSpyBlocker spy rules, 347 - curated Windows telemetry
+
+# --- wider / more aggressive or higher-volume coverage (large only) ---
+https://badmojr.gitlab.io/1hosts/Xtra/adblock.txt|large                                          # 1Hosts Xtra, 258,766 - aggressive, stale mirror (2024-05)
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt|large            # SNAFU, 75,334 - popular but famously noisy/breakage-prone
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt|large                      # AWAvenue Ads Rule (Chinese ads), 909
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt|large                      # HaGeZi ULTIMATE, 245,696 - broadest HaGeZi tier, aggressive by design
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt|medium                     # 1Hosts Lite, 102,206 - conservative tier, trusted
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt|medium                     # HaGeZi Samsung tracker, 200
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt|large                      # Dandelion Sprout anti-push, 436 - push networks, opinionated
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt|medium                     # HaGeZi Xiaomi tracker, 345
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt|large                      # ShadowWhisperer Dating, 1,353 - category choice, not security
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt|small                      # Dandelion Sprout Anti-Malware, 11,533 - reputable
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_6.txt|large                       # Dandelion Sprout game consoles, 9 - tiny but harmless
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt|large                      # Phishing Army, 153,302 - reputable, occasionally hot
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_37.txt|large                      # No Google, 1,623 - intentional Google killswitch, breaks services
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt|large                      # HaGeZi Badware Hosters, 1,080 - blocks whole hosts, over-blocking risk
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt|small                      # URLHaus (abuse.ch), 1,759 - gold-standard malware C2
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt|large                      # HaGeZi DNS/VPN/TOR/Proxy bypass, 16,234 - blocks DoH, breaks VPN users
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt|large|tld                 # HaGeZi abused TLDs, 258 whole-TLD rules -> lists/tlds.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt|medium                      # NoCoin cryptominers, 311 - small, trusted
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_62.txt|large                      # Ukrainian Security Filter, 1,726 - regional, sync stale (2026-04)
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt|small                      # Stalkerware Indicators, 929 - reputable (Echap/access NOW)
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt|small                      # PhishTank+OpenPhish (curbengh), 26,458 - standard phishing feed
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt|medium                     # Scam Blocklist by DurableNapkin, 933 - trusted
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt|medium                      # Big List of Hacked Malware Web Sites, 13,415 - popular, archive-ish pace
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt|large                      # HaGeZi DynDNS, 1,071 - blocks dynamic DNS wholesale
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt|medium                     # uBlock badware (uAssets), 3,420 - reputable
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt|medium                     # ShadowWhisperer Malware, 46,676 - popular, auto-compiled

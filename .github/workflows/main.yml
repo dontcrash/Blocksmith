@@ -1,0 +1,51 @@
+name: Update lists
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *' # At 00:00 and 12:00 (midnight and noon) every day
+  workflow_dispatch:  # Manual triggering
+    inputs:
+      run-manual:
+        description: 'Run the script manually'
+        required: false
+        default: 'yes'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+
+      - name: Checkout repo content
+        uses: actions/checkout@v7.0.1
+
+      - name: Setup Python
+        uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.14' # Install the Python version needed
+
+      - name: Run offline tests
+        run: |
+          python -m unittest test_blocklist_core.py
+
+      - name: Execute Python script
+        run: |
+          python update.py
+
+      - name: Validate output
+        run: |
+          python validate_output.py
+
+      - name: Commit list
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add lists/* build-summary.txt
+          git commit -m "GitHub Actions" --allow-empty
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v1.3.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

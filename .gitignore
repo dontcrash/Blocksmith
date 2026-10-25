@@ -1,0 +1,13 @@
+# downloads cache (CI re-fetches every run)
+.cache/
+
+__pycache__/
+*.pyc
+.venv/
+
+# atomic-write scratch files
+*.tmp
+
+# scratch/reference files kept local only
+example-workflow.txt
+*.log
