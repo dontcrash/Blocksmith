@@ -1,40 +1,40 @@
 Blocksmith build summary
-Finished: 2026-10-25 15:06:18 UTC in 66s
+Finished: 2026-10-26 03:26:25 UTC in 61s
 Sources: 44 ok, 0 empty, 0 failed of 44 configured
 
-  small.txt        317,685 entries      6.5 MB
-  medium.txt       429,871 entries      8.3 MB
-  large.txt      2,698,641 entries     46.7 MB
+  small.txt        323,610 entries      6.6 MB
+  medium.txt       432,821 entries      8.3 MB
+  large.txt      2,716,678 entries     47.0 MB
   tlds.txt             283 entries      0.0 MB
-  adguard-small.txt   468,199 entries     10.6 MB
-  adguard-medium.txt   798,781 entries     18.1 MB
-  adguard-large.txt 3,910,702 entries     81.0 MB
+  adguard-small.txt   474,844 entries     10.7 MB
+  adguard-medium.txt   805,302 entries     18.2 MB
+  adguard-large.txt 3,937,274 entries     81.5 MB
   adguard-tlds.txt       453 entries      0.0 MB
   whole-TLD blocks in tlds.txt: 283 (cannot be plain domains)
 
 Per-source (entries after syntax conversion and validation):
-  [ ] large  adblock 2,117,716  HaGeZi's Threat Intelligence Feeds - a serious security  
+  [ ] large  adblock 2,136,486  HaGeZi's Threat Intelligence Feeds - a serious security  
   [ ] medium adblock       110  HaGeZi's Apple Tracker - blocks built-in trackers from d 
   [ ] medium adblock       367  HaGeZi's Amazon Tracker - blocks built-in trackers from  
   [ ] medium adblock       437  HaGeZi's TikTok Tracker - blocks built-in trackers from  
   [ ] medium adblock       383  HaGeZi's Microsoft Tracker - blocks built-in trackers fr 
   [ ] medium adblock       135  HaGeZi's Huawei Tracker - blocks built-in trackers from  
-  [ ] medium adblock    47,792  HaGeZi's Pop-Up Ads - stops annoying and malicious pop-u 
-  [ ] medium adblock    17,587  HaGeZi's Fake - blocks scams, traps, and fake sites!     
+  [ ] medium adblock    47,659  HaGeZi's Pop-Up Ads - stops annoying and malicious pop-u 
+  [ ] medium adblock    17,595  HaGeZi's Fake - blocks scams, traps, and fake sites!     
   [ ] small  adblock     3,546  Peter Lowe's Blocklist                                   
   [ ] medium hosts       6,540  AdAway Default Blocklist                                 
-  [ ] small  adblock   172,106  HaGeZi's Normal Blocklist                                
+  [ ] small  adblock   178,745  HaGeZi's Normal Blocklist                                
   [ ] medium adblock       138  Perflyst and Dandelion Sprout's Smart-TV Blocklist       
   [ ] medium hosts      12,960  Dan Pollock's List                                       
-  [ ] large  adblock   233,652  OISD Blocklist Big                                       
-  [ ] small  adblock    58,682  OISD Blocklist Small                                     
+  [ ] large  adblock   233,388  OISD Blocklist Big                                       
+  [ ] small  adblock    58,762  OISD Blocklist Small                                     
   [ ] medium hosts      71,450  Steven Black's List                                      
-  [ ] small  adblock   190,726  AdGuard DNS filter                                       
+  [ ] small  adblock   190,911  AdGuard DNS filter                                       
   [ ] medium hosts         347  WindowsSpyBlocker - Hosts spy rules                      
   [ ] large  adblock   258,766  1Hosts (Xtra)                                            
   [ ] large  domains    75,334  raw.githubusercontent.com/RooneyMcNibNug/pihole-stuf     
   [ ] large  adblock       909  AWAvenue Ads Rule                                        
-  [ ] large  adblock   245,696  HaGeZi's Ultimate Blocklist                              
+  [ ] large  adblock   247,316  HaGeZi's Ultimate Blocklist                              
   [ ] medium adblock   102,206  1Hosts (Lite)                                            
   [ ] medium adblock       200  HaGeZi's Samsung Tracker Blocklist                       
   [ ] large  adblock       436  Dandelion Sprout's Anti Push Notifications               
@@ -42,18 +42,18 @@ Per-source (entries after syntax conversion and validation):
   [ ] large  adblock     1,353  ShadowWhisperer's Dating List                            
   [ ] small  adblock    11,533  Dandelion Sprout's Anti-Malware List                     
   [ ] large  adblock         9  Dandelion Sprout's Game Console Adblock List             
-  [ ] large  domains   153,366  Phishing Army                                            
+  [ ] large  domains   153,183  Phishing Army                                            
   [ ] large  adblock     1,623  No Google                                                
   [ ] large  adblock     1,080  HaGeZi's Badware Hoster Blocklist                        
-  [ ] small  adblock     1,759  Malicious URL Blocklist (URLHaus)                        
-  [ ] large  adblock    16,234  HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass              
+  [ ] small  adblock     1,764  Malicious URL Blocklist (URLHaus)                        
+  [ ] large  adblock    16,282  HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass              
   [ ] large  tld           283  HaGeZi's The World's Most Abused TLDs                    
   [ ] medium hosts         311  NoCoin Filter List                                       
   [ ] large  adblock     1,726  Ukrainian Security Filter                                
   [ ] small  domains       929  Stalkerware Indicators List                              
-  [ ] small  adblock    26,458  Phishing URL Blocklist (PhishTank and OpenPhish)         
+  [ ] small  adblock    26,193  Phishing URL Blocklist (PhishTank and OpenPhish)         
   [ ] medium adblock       933  Scam Blocklist by DurableNapkin                          
   [ ] medium hosts      13,415  The Big List of Hacked Malware Web Sites                 
   [ ] large  adblock     1,071  HaGeZi's DynDNS Blocklist                                
-  [ ] medium adblock     3,420  uBlock₀ filters – Badware risks                          
-  [ ] medium adblock    46,676  ShadowWhisperer's Malware List                           
+  [ ] medium adblock     3,421  uBlock₀ filters – Badware risks                          
+  [ ] medium adblock    46,677  ShadowWhisperer's Malware List                           
