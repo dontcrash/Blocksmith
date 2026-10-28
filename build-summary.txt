@@ -1,14 +1,14 @@
 Blocksmith build summary
-Finished: 2026-10-27 17:33:11 UTC in 64s
+Finished: 2026-10-28 04:14:08 UTC in 59s
 Sources: 44 ok, 0 empty, 0 failed of 44 configured
 
-  small.txt        310,802 entries      6.4 MB
-  medium.txt       429,026 entries      8.3 MB
-  large.txt      2,675,919 entries     46.2 MB
+  small.txt        310,770 entries      6.4 MB
+  medium.txt       429,524 entries      8.3 MB
+  large.txt      2,676,095 entries     46.2 MB
   tlds.txt             283 entries      0.0 MB
-  adguard-small.txt   459,917 entries     10.5 MB
-  adguard-medium.txt   793,985 entries     18.0 MB
-  adguard-large.txt 3,885,884 entries     80.4 MB
+  adguard-small.txt   459,945 entries     10.5 MB
+  adguard-medium.txt   795,487 entries     18.1 MB
+  adguard-large.txt 3,887,079 entries     80.5 MB
   adguard-tlds.txt       453 entries      0.0 MB
   whole-TLD blocks in tlds.txt: 283 (cannot be plain domains)
 
@@ -21,15 +21,15 @@ Per-source (entries after syntax conversion and validation):
   [ ] medium adblock       135  HaGeZi's Huawei Tracker - blocks built-in trackers from  
   [ ] medium adblock    48,254  HaGeZi's Pop-Up Ads - stops annoying and malicious pop-u 
   [ ] medium adblock    17,614  HaGeZi's Fake - blocks scams, traps, and fake sites!     
-  [ ] small  adblock     3,546  Peter Lowe's Blocklist                                   
+  [ ] small  adblock     3,549  Peter Lowe's Blocklist                                   
   [ ] medium hosts       6,540  AdAway Default Blocklist                                 
   [ ] small  adblock   171,367  HaGeZi's Normal Blocklist                                
   [ ] medium adblock       138  Perflyst and Dandelion Sprout's Smart-TV Blocklist       
   [ ] medium hosts      12,960  Dan Pollock's List                                       
-  [ ] large  adblock   233,945  OISD Blocklist Big                                       
-  [ ] small  adblock    59,368  OISD Blocklist Small                                     
-  [ ] medium hosts      74,440  Steven Black's List                                      
-  [ ] small  adblock   183,424  AdGuard DNS filter                                       
+  [ ] large  adblock   233,918  OISD Blocklist Big                                       
+  [ ] small  adblock    59,427  OISD Blocklist Small                                     
+  [ ] medium hosts      75,912  Steven Black's List                                      
+  [ ] small  adblock   183,571  AdGuard DNS filter                                       
   [ ] medium hosts         347  WindowsSpyBlocker - Hosts spy rules                      
   [ ] large  adblock   258,766  1Hosts (Xtra)                                            
   [ ] large  domains    75,712  raw.githubusercontent.com/RooneyMcNibNug/pihole-stuf     
@@ -42,18 +42,18 @@ Per-source (entries after syntax conversion and validation):
   [ ] large  adblock     1,353  ShadowWhisperer's Dating List                            
   [ ] small  adblock    11,533  Dandelion Sprout's Anti-Malware List                     
   [ ] large  adblock         9  Dandelion Sprout's Game Console Adblock List             
-  [ ] large  domains   153,132  Phishing Army                                            
+  [ ] large  domains   152,851  Phishing Army                                            
   [ ] large  adblock     1,623  No Google                                                
   [ ] large  adblock     1,079  HaGeZi's Badware Hoster Blocklist                        
-  [ ] small  adblock     1,790  Malicious URL Blocklist (URLHaus)                        
+  [ ] small  adblock     1,792  Malicious URL Blocklist (URLHaus)                        
   [ ] large  adblock    16,219  HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass              
   [ ] large  tld           283  HaGeZi's The World's Most Abused TLDs                    
   [ ] medium hosts         311  NoCoin Filter List                                       
   [ ] large  adblock     1,726  Ukrainian Security Filter                                
   [ ] small  domains       929  Stalkerware Indicators List                              
-  [ ] small  adblock    25,493  Phishing URL Blocklist (PhishTank and OpenPhish)         
+  [ ] small  adblock    25,311  Phishing URL Blocklist (PhishTank and OpenPhish)         
   [ ] medium adblock       932  Scam Blocklist by DurableNapkin                          
   [ ] medium hosts      13,415  The Big List of Hacked Malware Web Sites                 
   [ ] large  adblock     1,071  HaGeZi's DynDNS Blocklist                                
   [ ] medium adblock     3,421  uBlock₀ filters – Badware risks                          
-  [ ] medium adblock    46,685  ShadowWhisperer's Malware List                           
+  [ ] medium adblock    46,688  ShadowWhisperer's Malware List                           
