@@ -1,14 +1,14 @@
 Blocksmith build summary
-Finished: 2026-11-11 19:18:15 UTC in 57s
+Finished: 2026-11-12 05:55:33 UTC in 43s
 Sources: 44 ok, 0 empty, 0 failed of 44 configured
 
-  small.txt        324,081 entries      6.6 MB
-  medium.txt       438,507 entries      8.4 MB
-  large.txt      2,088,384 entries     37.1 MB
+  small.txt        324,156 entries      6.6 MB
+  medium.txt       438,601 entries      8.4 MB
+  large.txt      2,088,708 entries     37.2 MB
   tlds.txt             283 entries      0.0 MB
-  adguard-small.txt   497,403 entries     11.3 MB
-  adguard-medium.txt   866,241 entries     19.7 MB
-  adguard-large.txt 3,343,343 entries     70.8 MB
+  adguard-small.txt   499,051 entries     11.3 MB
+  adguard-medium.txt   867,904 entries     19.7 MB
+  adguard-large.txt 3,346,140 entries     70.9 MB
   adguard-tlds.txt       453 entries      0.0 MB
   whole-TLD blocks in tlds.txt: 283 (cannot be plain domains)
 
@@ -26,10 +26,10 @@ Per-source (entries after syntax conversion and validation):
   [ ] small  adblock   208,039  HaGeZi's Normal Blocklist                                
   [ ] medium adblock       138  Perflyst and Dandelion Sprout's Smart-TV Blocklist       
   [ ] medium hosts      13,079  Dan Pollock's List                                       
-  [ ] large  adblock   226,127  OISD Blocklist Big                                       
-  [ ] small  adblock    60,410  OISD Blocklist Small                                     
+  [ ] large  adblock   227,463  OISD Blocklist Big                                       
+  [ ] small  adblock    62,008  OISD Blocklist Small                                     
   [ ] medium hosts      78,174  Steven Black's List                                      
-  [ ] small  adblock   189,299  AdGuard DNS filter                                       
+  [ ] small  adblock   189,470  AdGuard DNS filter                                       
   [ ] medium hosts         347  WindowsSpyBlocker - Hosts spy rules                      
   [ ] large  adblock   258,766  1Hosts (Xtra)                                            
   [ ] large  domains    75,945  raw.githubusercontent.com/RooneyMcNibNug/pihole-stuf     
@@ -42,18 +42,18 @@ Per-source (entries after syntax conversion and validation):
   [ ] large  adblock     1,371  ShadowWhisperer's Dating List                            
   [ ] small  adblock    11,444  Dandelion Sprout's Anti-Malware List                     
   [ ] large  adblock        12  Dandelion Sprout's Game Console Adblock List             
-  [ ] large  domains   143,409  Phishing Army                                            
+  [ ] large  domains   143,207  Phishing Army                                            
   [ ] large  adblock     1,623  No Google                                                
   [ ] large  adblock     1,048  HaGeZi's Badware Hoster Blocklist                        
-  [ ] small  adblock     1,932  Malicious URL Blocklist (URLHaus)                        
+  [ ] small  adblock     1,929  Malicious URL Blocklist (URLHaus)                        
   [ ] large  adblock    16,377  HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass              
   [ ] large  tld           283  HaGeZi's The World's Most Abused TLDs                    
   [ ] medium hosts         311  NoCoin Filter List                                       
   [ ] large  adblock     1,726  Ukrainian Security Filter                                
   [ ] small  domains       929  Stalkerware Indicators List                              
-  [ ] small  adblock    19,291  Phishing URL Blocklist (PhishTank and OpenPhish)         
+  [ ] small  adblock    19,173  Phishing URL Blocklist (PhishTank and OpenPhish)         
   [ ] medium adblock       924  Scam Blocklist by DurableNapkin                          
   [ ] medium hosts      13,415  The Big List of Hacked Malware Web Sites                 
   [ ] large  adblock     1,065  HaGeZi's DynDNS Blocklist                                
   [ ] medium adblock     3,308  uBlock₀ filters – Badware risks                          
-  [ ] medium adblock    47,780  ShadowWhisperer's Malware List                           
+  [ ] medium adblock    47,795  ShadowWhisperer's Malware List                           
