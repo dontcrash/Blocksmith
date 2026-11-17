@@ -1,40 +1,40 @@
 Blocksmith build summary
-Finished: 2026-11-16 21:41:03 UTC in 41s
+Finished: 2026-11-17 06:46:11 UTC in 47s
 Sources: 44 ok, 0 empty, 0 failed of 44 configured
 
-  small.txt        322,730 entries      6.5 MB
-  medium.txt       435,865 entries      8.4 MB
-  large.txt      2,100,055 entries     37.4 MB
+  small.txt        322,270 entries      6.5 MB
+  medium.txt       434,899 entries      8.4 MB
+  large.txt      2,096,770 entries     37.4 MB
   tlds.txt             283 entries      0.0 MB
-  adguard-small.txt   474,775 entries     10.7 MB
-  adguard-medium.txt   842,209 entries     19.0 MB
-  adguard-large.txt 3,335,427 entries     70.6 MB
+  adguard-small.txt   474,287 entries     10.7 MB
+  adguard-medium.txt   840,746 entries     19.0 MB
+  adguard-large.txt 3,331,901 entries     70.5 MB
   adguard-tlds.txt       453 entries      0.0 MB
   whole-TLD blocks in tlds.txt: 283 (cannot be plain domains)
 
 Per-source (entries after syntax conversion and validation):
-  [ ] large  adblock 1,463,243  HaGeZi's Threat Intelligence Feeds - a serious security  
+  [ ] large  adblock 1,459,251  HaGeZi's Threat Intelligence Feeds - a serious security  
   [ ] medium adblock       104  HaGeZi's Apple Tracker - blocks built-in trackers from d 
   [ ] medium adblock       381  HaGeZi's Amazon Tracker - blocks built-in trackers from  
   [ ] medium adblock       547  HaGeZi's TikTok Tracker - blocks built-in trackers from  
   [ ] medium adblock       398  HaGeZi's Microsoft Tracker - blocks built-in trackers fr 
   [ ] medium adblock       148  HaGeZi's Huawei Tracker - blocks built-in trackers from  
-  [ ] medium adblock    77,503  HaGeZi's Pop-Up Ads - stops annoying and malicious pop-u 
+  [ ] medium adblock    77,647  HaGeZi's Pop-Up Ads - stops annoying and malicious pop-u 
   [ ] medium adblock    18,769  HaGeZi's Fake - blocks scams, traps, and fake sites!     
   [ ] small  adblock     3,548  Peter Lowe's Blocklist                                   
   [ ] medium hosts       6,540  AdAway Default Blocklist                                 
-  [ ] small  adblock   184,013  HaGeZi's Normal Blocklist                                
+  [ ] small  adblock   184,413  HaGeZi's Normal Blocklist                                
   [ ] medium adblock       138  Perflyst and Dandelion Sprout's Smart-TV Blocklist       
   [ ] medium hosts      13,079  Dan Pollock's List                                       
-  [ ] large  adblock   228,378  OISD Blocklist Big                                       
-  [ ] small  adblock    63,272  OISD Blocklist Small                                     
+  [ ] large  adblock   227,987  OISD Blocklist Big                                       
+  [ ] small  adblock    62,435  OISD Blocklist Small                                     
   [ ] medium hosts      76,059  Steven Black's List                                      
-  [ ] small  adblock   189,391  AdGuard DNS filter                                       
+  [ ] small  adblock   189,524  AdGuard DNS filter                                       
   [ ] medium hosts         347  WindowsSpyBlocker - Hosts spy rules                      
   [ ] large  adblock   258,765  1Hosts (Xtra)                                            
-  [ ] large  domains    75,959  raw.githubusercontent.com/RooneyMcNibNug/pihole-stuf     
+  [ ] large  domains    75,964  raw.githubusercontent.com/RooneyMcNibNug/pihole-stuf     
   [ ] large  adblock       918  AWAvenue Ads Rule                                        
-  [ ] large  adblock   294,922  HaGeZi's Ultimate Blocklist                              
+  [ ] large  adblock   296,944  HaGeZi's Ultimate Blocklist                              
   [ ] medium adblock   102,205  1Hosts (Lite)                                            
   [ ] medium adblock       201  HaGeZi's Samsung Tracker Blocklist                       
   [ ] large  adblock       444  Dandelion Sprout's Anti Push Notifications               
@@ -42,18 +42,18 @@ Per-source (entries after syntax conversion and validation):
   [ ] large  adblock     1,400  ShadowWhisperer's Dating List                            
   [ ] small  adblock    11,444  Dandelion Sprout's Anti-Malware List                     
   [ ] large  adblock        12  Dandelion Sprout's Game Console Adblock List             
-  [ ] large  domains   144,410  Phishing Army                                            
+  [ ] large  domains   144,497  Phishing Army                                            
   [ ] large  adblock     1,623  No Google                                                
   [ ] large  adblock     1,046  HaGeZi's Badware Hoster Blocklist                        
-  [ ] small  adblock     2,046  Malicious URL Blocklist (URLHaus)                        
-  [ ] large  adblock    16,408  HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass              
+  [ ] small  adblock     2,048  Malicious URL Blocklist (URLHaus)                        
+  [ ] large  adblock    16,622  HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass              
   [ ] large  tld           283  HaGeZi's The World's Most Abused TLDs                    
   [ ] medium hosts         311  NoCoin Filter List                                       
   [ ] large  adblock     1,726  Ukrainian Security Filter                                
   [ ] small  domains       929  Stalkerware Indicators List                              
-  [ ] small  adblock    17,674  Phishing URL Blocklist (PhishTank and OpenPhish)         
+  [ ] small  adblock    17,488  Phishing URL Blocklist (PhishTank and OpenPhish)         
   [ ] medium adblock       912  Scam Blocklist by DurableNapkin                          
   [ ] medium hosts      13,415  The Big List of Hacked Malware Web Sites                 
   [ ] large  adblock     1,059  HaGeZi's DynDNS Blocklist                                
   [ ] medium adblock     3,314  uBlock₀ filters – Badware risks                          
-  [ ] medium adblock    47,820  ShadowWhisperer's Malware List                           
+  [ ] medium adblock    46,701  ShadowWhisperer's Malware List                           
